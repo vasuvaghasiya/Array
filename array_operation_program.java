@@ -73,7 +73,7 @@ public class array_operation_program {
     private static int delete(int arr[],int p,int val){
         for (int i=0;i<p;i++){
             if(arr[i]==val){
-                for (int j=i;j<p-1;i++){
+                for (int j=i;j<p-1;j++){
                     arr[j]=arr[j+1];
                 }
                 p--;
