@@ -1,3 +1,4 @@
+
 public class print_all_duplicate_element {
     public static void main(String [] args){
         int [] arr = {10,20,10,20,50,50,70};
